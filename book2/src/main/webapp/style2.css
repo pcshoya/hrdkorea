@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+header{
+	position: fixed;
+	top:0px;
+	left: 0px;
+	height:70px;
+	width:100%;
+	line-height: 70px;
+	background-color: orange;
+	font-size:32px;	
+	text-align:center;
+	color:rgb(255, 128, 64);
+}
+
+nav {
+	position: fixed;
+	top: 70px;
+	left: 0px;
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	background-color: pink;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none; /* nav 내부의 모든 링크(<a>) 밑줄 제거 */
+	color: black; /* 링크 기본색도 지정 */
+}
+
+section{
+	position: fixed;
+	top:100px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+footer{
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	height:70px;
+	width: 100px;
+	line-height:70px;
+	background-color: orange;
+	text-align: center;
+}
+
+h2{
+	text-align: right;
+}
+
+p{
+	padding-left: 20px;
+}
+
+table{
+	margin: 0 auto;
+}
+
+th {
+  text-align: center;
+  vertical-align: middle;  /* 세로 방향(위↕아래)도 가운데 정렬 */
+}
+
+/* 세로쓰기 */
+.vertical {
+  writing-mode: vertical-rl;     /* 위→아래로 흐름 */
+  /* 필요시 간격 조정 */
+}
