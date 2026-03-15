@@ -10,7 +10,7 @@
 <jsp:include page="header.jsp"></jsp:include>
 <section style="position:fixed;height:100%;width:100%;background-color:lightgray;top:100px;left:0px">
 <h2 style="text-align:center">차량입차</h2>
-<table border="1" align="center">
+<table border="1">
 	<tr>
 		<td>차량번호</td>
 		<td><input type="text">예) 2가 1111</td>

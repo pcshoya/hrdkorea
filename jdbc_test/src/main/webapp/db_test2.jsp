@@ -2,22 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-section{
-	position:fixed;
-	width:100%;
-	height:100%;
-	left:0px;
-	top:100px;
-	text-align:center;
-	background-color:lightgray;
-}
-
-table{
-	border:1px;
-	margin:auto;
-}
-</style>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
